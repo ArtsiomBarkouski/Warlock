@@ -1,0 +1,1 @@
+java -jar BarkouskiTestForAndersen.jar

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Task03 {
-    public static void main(String[] args) {
+    public static void arrayOfMultiple() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите размер (количество элементов) массива: ");
         int size = sc.nextInt();
@@ -14,6 +14,7 @@ public class Task03 {
             if (a % 3 == 0)
                 System.out.println(a);
                         }
-        sc.close();
+
+
     }
 }
