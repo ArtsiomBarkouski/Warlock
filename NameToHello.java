@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task02 {
+public class NameToHello {
     public static void stringEquals() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите имя: ");

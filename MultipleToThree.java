@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Task03 {
-    public static void arrayOfMultiple() {
+public class MultipleToThree {
+    public static void arrayOfMultipleNumbers() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите размер (количество элементов) массива: ");
         int size = sc.nextInt();
