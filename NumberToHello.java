@@ -7,7 +7,8 @@ public class NumberToHello {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число: ");
         while (!sc.hasNextInt()) {
-            System.out.println("Вы ввели не число");
+            System.out.println("Вы ввели не число\n" +
+                    "Введите число");
             sc.next();
         }
         addedNumber = sc.nextInt();

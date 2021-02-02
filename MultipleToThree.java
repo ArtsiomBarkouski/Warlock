@@ -3,7 +3,11 @@ import java.util.Scanner;
 public class MultipleToThree {
     public static void arrayOfMultipleNumbers() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите размер (количество элементов) массива: ");
+        System.out.println("Введите размер (количество элементов) массива (целое положительное число): ");
+        while (!sc.hasNextInt()) {
+            System.out.println("Вы ввели не число");
+            sc.next();
+        }
         int size = sc.nextInt();
         int[] ints = new int[size];
         System.out.println("Введите элементы массива: ");
